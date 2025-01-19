@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/frag1Container"
+    tools:context=".Fragment.LoginFragment">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textVFrag1Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="SIGN IN"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:id="@+id/usertextfrag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/rounded_corner"
+            android:textSize="20sp"
+            android:padding="18dp"
+            android:inputType="text"
+            android:hint="Username"/>
+
+        <EditText
+            android:id="@+id/passwordtextfrag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:padding="18dp"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+        <Button
+            android:id="@+id/loginBFrag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Sign In"/>
+
+        <TextView
+            android:id="@+id/textLoginId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/regBFrag1N"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"/>
+
+    </LinearLayout>
+
+</FrameLayout>

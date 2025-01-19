@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateFragment">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/entrClaimIdNv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Claim Id"/>
+
+        <EditText
+            android:id="@+id/updateStatusNv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter New Status"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/updateBtnNv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Status"/>
+
+        <TextView
+            android:id="@+id/updateTextNv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:contentDescription="updated claim history"/>
+
+    </LinearLayout>
+
+</FrameLayout>
