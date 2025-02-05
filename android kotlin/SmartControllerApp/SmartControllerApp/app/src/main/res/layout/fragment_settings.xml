@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.smartcontrollerapp.viewModel.SettingsViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+        <!-- Lights Preference -->
+        <Switch
+            android:id="@+id/switchLightPreference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable Lights Control"
+            android:checked="@={viewModel.isLightControlEnabled}"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <!-- Thermostat Preference -->
+        <SeekBar
+            android:id="@+id/seekBarTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="30"
+            app:layout_goneMarginTop="15dp"
+            android:progress="@={viewModel.preferredTemperature}"
+            app:layout_constraintTop_toBottomOf="@id/switchLightPreference"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

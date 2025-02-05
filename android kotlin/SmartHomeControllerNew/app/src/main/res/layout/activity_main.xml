@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#7B8ADE"
+    android:gravity="center">
+
+    <!-- Device Status Display -->
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Status: Unknown"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Light Control Button -->
+    <Button
+        android:id="@+id/buttonLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control Light"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Thermostat Control Button -->
+    <Button
+        android:id="@+id/buttonThermostat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control Thermostat"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+com.example.smarthomecontroller.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

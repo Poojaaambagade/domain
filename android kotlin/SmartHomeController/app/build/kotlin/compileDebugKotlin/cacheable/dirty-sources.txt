@@ -1,0 +1,12 @@
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\fragments\SettingsFragment.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\MainActivity.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\fragments\DashboardFragment.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\viewmodel\DashboardViewModel.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\viewmodel\MainFragmentViewModel.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\fragments\MainFragment.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\Retrofit\RetrofitClient.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\Retrofit\SmartHomeApi.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\Model\DeviceStatus.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\Ui\MainActivity.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\Ui\SettingFragment.kt
+C:\Users\pooja\andrSmartController\SmartHomeController\app\src\main\java\com\example\smarthomecontroller\Ui\DashboardFragment.kt
